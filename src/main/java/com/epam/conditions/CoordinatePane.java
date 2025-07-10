@@ -6,9 +6,9 @@ public class CoordinatePane {
         if (y == 0 || x == 0){
             System.out.println("zero");
         }else if (y > 0) {
-            System.out.println(x > 0 ? "first" : "fourth");
+            System.out.println(x > 0 ? "first" : "second");
         } else {
-            System.out.println(x > 0 ? "second" : "third");
+            System.out.println(x > 0 ? "fourth" : "third");
         }
     }
     
